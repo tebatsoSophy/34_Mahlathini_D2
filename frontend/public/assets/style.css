@@ -1,0 +1,107 @@
+/* style.css */
+
+/* General Styles */
+body, html, .splash-page {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background for the entire page */
+  color: #e0e0e0; /* Light gray text for general content */
+}
+
+/* Splash Header */
+.splash-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #1f1f1f; /* Slightly lighter dark background for header */
+}
+
+.splash-logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.splash-title {
+  color: #ffffff; /* White text for the title */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Splash Main with Two-Color Dark Backgrounds */
+.splash-main {
+  display: flex;
+  height: calc(100vh - 140px); /* Adjust based on header and footer height */
+}
+
+/* Left Section with Dark Background */
+.splash-left {
+  flex: 1;
+  background-color: #1e1e1e; /* Dark gray background */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff; /* White text for the slogan */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.splash-info-image {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Light shadow for better visibility */
+}
+
+/* Right Section with Different Dark Background */
+.splash-right {
+  flex: 1;
+  background-color: #2a2a2a; /* Slightly lighter dark gray for contrast */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash-description {
+  font-size: 16px;
+  color: #e0e0e0; /* Light gray text for description */
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.get-started-button {
+  padding: 12px 24px;
+  background-color: #3a3a3a; /* Dark button background */
+  color: #ffffff; /* White text on button */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.get-started-button:hover {
+  background-color: #575757; /* Lighter dark on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Footer */
+.splash-footer {
+  padding: 20px;
+  background-color: #1f1f1f; /* Consistent dark background with header */
+  color: #e0e0e0; /* Light gray text for footer */
+  text-align: center;
+  font-size: 14px;
+}
